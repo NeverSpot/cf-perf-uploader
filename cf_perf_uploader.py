@@ -64,7 +64,7 @@ def process_and_upload(contest_id, division="Div2"):
             return
 
         rows = fetch_contest_standings(contest_id)
-        users = []
+        users = ["neverspot"]
         all_ratings = []
 
         for row in rows:
